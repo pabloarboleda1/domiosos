@@ -1,0 +1,19 @@
+/* estilos.css */
+
+.btn-outline-success {
+    color: #01979B;
+    background-color: #FF8B5A;
+    border-color: #FF8B5A;
+    font-size: large;
+    font-weight: 500;
+}
+
+.navbar {
+    background-color: #ffffff;
+    transition: background-color 0.3s ease;
+}
+
+.btn-outline-success:hover {
+    background-color: #01979B;
+    color: #FF8B5A;
+}
