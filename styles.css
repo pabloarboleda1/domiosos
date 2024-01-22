@@ -17,3 +17,38 @@
     background-color: #01979B;
     color: #FF8B5A;
 }
+.btn-outline-success:active {
+    background-color:#FF8B5A  !important;
+    color: #01979B !important;
+}
+
+
+/* Estilos del dropdown antes de la animación */
+.dropdown-menu {
+    display: block; /* Asegura que el dropdown sea visible incluso antes de la animación */
+    opacity: 0; /* Inicialmente, establece la opacidad en 0 para ocultar el dropdown */
+    transform: translateY(-20px); /* Desplaza el dropdown hacia arriba para ocultarlo */
+    transition: transform 0.3s ease, opacity 0.3s ease; /* Agrega transiciones para suavizar la aparición/desaparición */
+}
+
+/* Estilos del dropdown durante la animación */
+.dropdown-menu.show {
+    opacity: 1; /* Cambia la opacidad a 1 durante la animación */
+    transform: translateY(0); /* Desplaza el dropdown hacia abajo para mostrarlo */
+}
+.navbar-nav img {
+    transition: transform 0.3s ease; /* Agrega una transición para suavizar el movimiento */
+}
+
+.navbar-nav img:hover {
+    transform: translateY(-5px); /* Mueve la imagen hacia arriba al colocar el ratón sobre ella */
+}
+.navbar-brand img {
+    transition: transform 0.3s ease; /* Agrega una transición para suavizar el movimiento */
+}
+
+.navbar-brand:hover img {
+    transform: translateY(-5px); /* Mueve el logo hacia arriba al pasar el ratón sobre él */
+}
+
+  
