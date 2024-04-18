@@ -1,0 +1,151 @@
+.product-list {
+    overflow-x: auto;
+    white-space: nowrap;
+    background-color: rgba(1, 150, 155, 0.7058823529);
+    margin-bottom: 5%;
+  }
+  
+  .product-card {
+    display: inline-block;
+    width: 200px;
+    margin-right: 20px;
+    margin-top: 2%;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  
+    &:hover {
+      transform: scale(1.05);
+      box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    }
+  }
+  
+  .product-header {
+    text-align: center;
+    padding: 10px;
+    background-color: #333;
+    color: #fff;
+  }
+  
+  .product-image {
+    max-width: 100%;
+    height: auto;
+    border-bottom: 1px solid #ddd;
+    transition: transform 0.3s ease;
+  }
+  
+  .product-card:hover .product-image {
+    transform: scale(1.1);
+  }
+  
+  .product-details {
+    padding: 10px;
+    text-align: center;
+  }
+  
+ 
+  
+    .product-card {
+      width: 50%;
+      margin-right: 0;
+    }
+    .card11 {
+        background-color: #FF8B5A;
+        border-radius: 8px;
+        padding: 20px;
+        margin: 10px 0;
+        width: 60%;
+        max-width: 400px;
+        opacity: 0;
+        transform: translateY(20px);
+        animation: fadeInUp 0.5s ease forwards;
+        cursor: pointer;
+        overflow: hidden;
+      }
+      .product-card {
+        width: 200px;
+        overflow: hidden; 
+      
+        .product-image {
+          width: 100%; 
+          height: auto; 
+        }
+      
+        .product-details {
+          padding: 10px; 
+        }
+      
+        .product-button {
+          display: none; 
+        }
+      
+        &:hover {
+          .product-details {
+            padding: 10px; 
+          }
+        }
+      }
+      .section-with-card {
+        .formdoc {
+          background-color: transparent; 
+          border: 2px solid #FF8B5A; 
+          border-radius: 10px; 
+          padding: 20px; 
+          transition: all 0.3s ease; 
+      
+          
+          box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+      
+          
+          &:hover {
+            transform: translateY(-5px); 
+            box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); 
+          }
+        }
+      }
+      .card-container {
+        border: 2px solid #007bff;
+        border-radius: 15px;
+        padding: 20px;
+        margin-top: 50px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        transition: box-shadow 0.3s ease-in-out;
+         background: rgb(1,151,155);
+        background: linear-gradient(180deg, rgba(1,151,155,0.6474964985994398) 0%, rgba(255,139,90,0.5634628851540616) 69%);
+      
+        
+      }
+  
+      .card-container:hover {
+        box-shadow: 0 0 20px rgba(0, 123, 255, 0.5);
+      }
+  
+      .card {
+        border: none;
+      }
+      .card-container {
+        border: 2px solid #007bff;
+        border-radius: 15px;
+        margin-top: 50px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        transition: box-shadow 0.3s ease-in-out;
+      }
+  
+      .card-container:hover {
+        box-shadow: 0 0 20px rgba(0, 123, 255, 0.5);
+      }
+  
+      .card {
+        border: none;
+      }
+  
+      #pdfViewer {
+        padding: 20px;
+      }
+    .card-header1{
+      background-color: none;
+    }
+    
+    

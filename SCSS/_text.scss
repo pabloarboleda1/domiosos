@@ -1,0 +1,325 @@
+@mixin typefont {
+  font-family: "Protest Riot", sans-serif;
+}
+
+h1 {
+  padding: auto;
+}
+
+input {
+  width: 6.5em;
+  color: #000000;
+  font-size: inherit;
+  font-family: inherit;
+  background-color: #FF8B5A 0, 0%, 98%;
+  padding: 0.35em 0.45em;
+  border: 1px solid transparent;
+  transition: background-color 0.3s ease-in-out;
+
+  &:focus {
+    outline: none;
+  }
+
+  &::placeholder {
+    color: #FF8B5A 0, 0%, 100%, 0.6;
+  }
+}
+
+span {
+  background-color: #FF8B5A;
+  transition: transform 0.5s ease;
+}
+
+.titulo {
+  @include typefont;
+  font-size: 220%;
+  color: #01979B;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 20vh;
+}
+
+.div {
+  position: relative;
+  width: 300px;
+}
+
+input {
+  width: 105%;
+  padding: 5%;
+  border-radius: 10%;
+}
+
+span {
+  width: 100%;
+  height: 100%;
+  box-sizing: border-box;
+}
+
+h2 {
+  @include typefont;
+  font-size: 180%;
+  color: #FF8B5A;
+  font-weight: 500;
+  display: flex;
+  height: 20vh;
+}
+
+.pa {
+  width: 50px;
+  margin-bottom: 2px;
+  margin-bottom: 20px;
+}
+
+h2,
+.pa {
+  display: inline;
+}
+
+h4 {
+  @include typefont;
+  background-color: #01979B;
+  text-align: center;
+}
+
+.b {
+  @include typefont;
+  background-color: #01979B;
+  width: 60%;
+  text-align: center;
+}
+
+.titulo1 {
+  @include typefont;
+  font-size: 300%;
+  color: #01979B;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 15vh;
+}
+
+.parrafo {
+  @include typefont;
+  width: 100%;
+  font-size: large;
+}
+
+.parrafo1,
+.parrafo2 {
+  @include typefont;
+  width: 100%;
+  font-size: larger;
+}
+
+.noso {
+  width: 30%;
+  margin-left: 30%;
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
+
+.equipo {
+  width: 30%;
+  margin-left: 30%;
+}
+
+.bodynosotros {
+  margin-left: 5%;
+  margin-right: 5%;
+  background-color: rgba(1, 150, 155, 0.4117647059);
+}
+
+.ham {
+  width: 18%;
+}
+
+.pez {
+  width: 12%;
+}
+
+.bodycarne {
+  margin-left: 5%;
+  margin-right: 5%;
+  background-color: rgba(1, 150, 155, 0.4117647059);
+}
+
+h6 {
+  @include typefont;
+  font-size: 220%;
+  color: #FF8B5A;
+  font-weight: 500;
+  display: flex;
+  height: 20vh;
+  display: inline;
+}
+
+.par {
+  display: inline;
+  width: 50px;
+  margin-bottom: 2%;
+}
+
+.card1 {
+  flex: 1 0 120px;
+  height: 150px;
+  display: inline-block;
+  margin: 5px;
+  border: 1px solid;
+  background-color: #FF8B5A;
+}
+
+.pez1 {
+  width: 90%;
+}
+
+
+
+.bodyindex {
+  background-color: rgba(1, 150, 155, 0.4117647059);
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+.letra {
+  font-size: 110%;
+}
+
+.super {
+  width: 50%;
+  margin-left: 20%;
+}
+
+.domifavor {
+  color: #FF8B5A;
+}
+
+.favor1 {
+  @include typefont;
+  background-color: rgba(255, 140, 90, 0.7960784314);
+  color: #01979B;
+  border-radius: 20%;
+}
+
+.card1 {
+  width: 80%;
+  margin: 0 auto;
+  background-color: #f9f9f9;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.step {
+  margin-bottom: 20px;
+
+  h3 {
+    color: #333;
+  }
+
+  p {
+    color: #666;
+  }
+}
+
+.h3 {
+  font-size: large;
+  @include typefont;
+}
+
+.h39 {
+  @include typefont;
+  font-size: 180%;
+  color: #01979B;
+}
+
+.formdoc {
+  margin: 5%;
+}
+
+h1 {
+  @include typefont;
+  font-size: 220%;
+  color: #01979B;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 20vh;
+}
+
+.secdoc {
+  display: flex;
+  align-items: center !important;
+  margin-top: 5%;
+  justify-content: center !important;
+  position: relative;
+  overflow: hidden;
+}
+
+.motodoc {
+  width: 100px;
+  margin: 1%;
+  position: absolute;
+  right: 100%;
+  animation: slideFromRight 4s ease forwards;
+}
+
+.secdoc,
+h1 {
+  z-index: 2;
+}
+
+.secdoc,
+img.motodoc {
+  z-index: 1;
+}
+.carta{
+  @include typefont;
+  font-size: 130%;
+  color: #FF8B5A;
+  font-weight: 500;
+  display: flex;
+  background-color: none;
+  height: 20vh;
+  display: inline;
+  text-align: center;
+  transition: all 0.3s ease-in-out;
+  
+}
+.card-title {
+  @include typefont;
+  text-align: center;
+  font-size: larger;
+  background-color: #ffc2a4; 
+  padding: 10px; 
+  border-radius: 10px; 
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: background-color 0.3s ease-in-out; 
+}
+
+#downloadLink {
+text-align: center;
+background-color: #01979B; 
+padding: 10px; 
+border-radius: 10px; 
+box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
+transition: background-color 0.3s ease-in-out; 
+}
+#downloadLink:hover{
+  transform: scale(1.05); 
+  transition: transform 0.3s ease; 
+}
+
+.button-container {
+  position: relative;
+  text-align: center;
+  
+}
+#animatedText{
+  color: #01979B;
+text-align: center;
+border-radius: 10px; 
+transition: background-color 0.3s ease-in-out; 
+}
+
+

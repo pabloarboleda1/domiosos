@@ -1,0 +1,251 @@
+.btn-outline-success {
+  color: #01979B;
+  background-color: #FF8B5A;
+  border-color: #FF8B5A;
+  font-size: large;
+  font-weight: 500;
+}
+
+.btn-outline-success {
+  &:hover {
+    background-color: #01979B;
+    color: #FF8B5A;
+  }
+
+  &:active {
+    background-color: #FF8B5A !important;
+    color: #01979B !important;
+  }
+}
+
+button:hover {
+  cursor: pointer;
+  color: #01979B;
+
+  &::before {
+    transform: translate3d(-50%, -50%, 0) scale3d(15, 15, 15);
+  }
+}
+
+div {
+  position: relative;
+}
+
+.bottom,
+.top {
+  height: 1px;
+  left: 0;
+  right: 0;
+  transform: scaleX(0);
+}
+
+.left,
+.right {
+  width: 1px;
+  top: 0;
+  bottom: 0;
+  transform: scaleY(0);
+}
+
+.bottom {
+  bottom: 0;
+  transform-origin: bottom right;
+}
+
+input:focus~.bottom {
+  transform-origin: bottom left;
+  transform: scaleX(1);
+}
+
+.right {
+  right: 0;
+  transform-origin: top right;
+}
+
+input:focus~.right {
+  transform-origin: bottom right;
+  transform: scaleY(1);
+}
+
+.top {
+  top: 0;
+  transform-origin: top left;
+}
+
+input:focus~.top {
+  transform-origin: top right;
+  transform: scaleX(1);
+}
+
+.left {
+  left: 0;
+  transform-origin: bottom left;
+}
+
+input:focus~.left {
+  transform-origin: top left;
+  transform: scaleY(1);
+}
+
+.bottom,
+.right {
+  border-top: none;
+  border-left: none;
+  border-bottom-right-radius: 5px;
+}
+
+.top,
+.left {
+  border-bottom: none;
+  border-right: none;
+  border-top-left-radius: 5px;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropbtn {
+  background-color: #FF8B5A;
+  font-family: "Protest Riot", sans-serif;
+  color: #01979B;
+  padding: 10px 20px;
+  font-size: 16px;
+  border-radius: 15px;
+  cursor: pointer;
+
+  &:hover,
+  &:focus {
+    background-color: #01979B;
+    color: #FF8B5A
+  }
+}
+
+.dropbtn1 {
+  width: 80%;
+  margin-top: 15px;
+  align-items: center;
+  background-color: #FF8B5A;
+  font-family: "Protest Riot", sans-serif;
+  color: #01979B;
+  font-size: 16px;
+  border-radius: 15%;
+  cursor: pointer;
+
+
+}
+
+.product-header {
+  text-align: center;
+  padding: 10px;
+  background-color: #333;
+  color: #fff;
+}
+
+.product-image {
+  max-width: 100%;
+  height: auto;
+  border-bottom: 1px solid #ddd;
+  transition: transform 0.3s ease;
+}
+
+.product-card:hover .product-image {
+  transform: scale(1.1);
+}
+
+.product-details {
+  padding: 10px;
+  text-align: center;
+}
+
+.button-card {
+  font-family: "Protest Riot", sans-serif;
+  display: block;
+  width: 100%;
+  padding: 10px;
+  background-color: #FF8B5A;
+  color: #fff;
+  text-align: center;
+  text-decoration: none;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+
+  &:hover {
+    font-family: "Protest Riot", sans-serif;
+    background-color: rgba(1, 150, 155, 0.7882352941);
+    color: #FF8B5A;
+  }
+}
+
+.menu-container {
+  margin-top: 20px;
+
+  h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+    text-align: center;
+  }
+}
+
+.menu-container:nth-child(3) {
+  margin-top: 200px;
+}
+
+.nav {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.menu {
+  display: flex;
+  justify-content: center;
+}
+
+.dropbtn-domi {
+  background-color: #FF8B5A;
+  font-family: "Protest Riot", sans-serif;
+  color: #01979B;
+  padding: 20px 30px;
+  font-size: 20px;
+  border-radius: 15%;
+  cursor: pointer;
+  margin-left: 500px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.dropbtn-domi {
+  background-color: #FF8B5A;
+  font-family: "Protest Riot", sans-serif;
+  color: #01979B;
+  padding: 20px 30px;
+  font-size: 20px;
+  border-radius: 15%;
+  cursor: pointer;
+  margin-left: 500px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.btn-domi {
+  margin-top: 30px;
+  margin-bottom: 30px;
+  margin-left: 70px;
+}
+
+#orderNowBtn {
+  text-align: center;
+  background-color: #FF8B5A ;
+  padding: 10px;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: background-color 0.3s ease-in-out;
+}
+#orderNowBtn:hover {
+  transform: scale(1.05); 
+  transition: transform 0.3s ease; 
+}

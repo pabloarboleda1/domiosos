@@ -1,0 +1,155 @@
+@keyframes fadeInUp {
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  @keyframes slideIn {
+    from {
+      opacity: 0;
+      transform: translateY(-20px);
+    }
+  
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  @media (max-width: 500px) {
+    .buy11 {
+      width: 50px;
+      margin-top: 20%;
+    }
+  }
+  
+ 
+  @keyframes slideFromRight {
+    from {
+      left:100%;
+    }
+  
+    to {
+     left: 5%;
+    }
+  }
+  
+
+  
+  
+
+  @media only screen and (max-width: 600px) {
+    .product-list {
+      padding: 10px;
+    }
+  }
+  @keyframes fadeInUp {
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
+  .card {
+    &:nth-child(1) {
+      animation-delay: 0.2s;
+    }
+  
+    &:nth-child(2) {
+      animation-delay: 0.4s;
+    }
+  
+    &:nth-child(3) {
+      animation-delay: 0.6s;
+    }
+  }
+  @keyframes slideIn {
+    from {
+      opacity: 0;
+      transform: translateY(-20px);
+    }
+  
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  @media (max-width: 500px) {
+    .buy11 {
+      width: 50px;
+      margin-top: 20%;
+    }
+  }
+ 
+  
+  @media screen and (max-width: 850px) {
+    .container-grid-1 {
+        display: block !important;
+    }
+  }
+    .card11 {
+        width: auto o !important;
+        margin-bottom: 20px; 
+        align-items: center !important;
+}
+
+@keyframes pulse {
+  0% { transform: scale(1); }
+  50% { transform: scale(1.1); }
+  100% { transform: scale(1); }
+}
+@media screen and (max-width: 1067px) {
+  .dropbtn-domi {
+    margin-left: 50px !important; // Ajusta la cantidad de desplazamiento hacia la izquierda
+  }
+}
+
+@media screen and (max-width: 850px) {
+  .dropbtn-domi {
+    margin-left: 20px !important; // Ajusta la cantidad de desplazamiento hacia la izquierda
+  }
+}
+
+@keyframes slideDown {
+  0% {
+    opacity: 0; 
+    transform: translateY(-10px); 
+  }
+  100% {
+    opacity: 1; 
+    transform: translateY(0); 
+  }
+}
+@media (min-width: 601px) {
+  .btn-domi {
+      display: flex;
+      justify-content: center; /* Centrar horizontalmente */
+  }
+}
+@media (max-width: 400px) {
+  .btn-domi {
+      display: flex !important;
+      justify-content: center !important; /* Centrar horizontalmente */
+  }
+}
+
+@media (max-width: 1000000px) {
+
+  #downloadLink {
+    display: block !important;
+ 
+}
+}
+@media (max-width: 600px) {
+  #pdfViewer {
+    display: none;
+  }
+  #downloadLink {
+    display: block !important;
+  }
+  #downloadText {
+    display: block !important;
+  }
+  .content {
+    text-align: center;
+  }
+}

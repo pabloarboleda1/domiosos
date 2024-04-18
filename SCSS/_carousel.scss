@@ -1,0 +1,56 @@
+.outer {
+    padding: 20px;
+    overflow-y: hidden;
+    width: 100%;
+    height: 100%;
+    border: 3px solid #01979B;
+  }
+  
+  .flex-container {
+    height: calc(100% + 17px);
+    padding-bottom: 6%;
+    display: flex;
+    flex-wrap: nowrap;
+  }
+  
+  .card {
+    flex: 1 0 120px;
+    height: 150px;
+    display: inline-block;
+    margin: 5px;
+    border: 1px solid;
+    background-color: #FF8B5A;
+  }
+  
+  .caption {
+    margin-left: 70%;
+    margin-bottom: 200%;
+  }
+  
+  .outer .flex-container .card > img {
+    margin-left: 16%;
+    width: 70%;
+  }
+  .d-block {
+    width: 80%;
+    margin-left: 10%;
+    border-radius: 10%;
+    margin-top: 5%;
+  }
+  
+  .carousel-control-next-icon, .carousel-control-prev-icon {
+    background-color: #01979B;
+  }
+  .carousel-item {
+    width: 100%;
+    border-radius: 10%;
+  }
+  .container11 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+  }
+  .carousel-inner {
+    width: 100;
+  }
