@@ -629,6 +629,23 @@ input:focus ~ .left {
     margin-left: 50px !important;
   }
 }
+.divider:after,
+.divider:before {
+  content: "";
+  flex: 1;
+  height: 1px;
+  background: #eee;
+}
+
+.h-custom {
+  height: calc(100% - 73px);
+}
+
+@media (max-width: 450px) {
+  .h-custom {
+    height: 100%;
+  }
+}
 @media screen and (max-width: 850px) {
   .dropbtn-domi {
     margin-left: 20px !important;
@@ -732,6 +749,15 @@ input:focus ~ .left {
 .dropdown-menu {
   background: rgb(1, 151, 155);
   background: linear-gradient(180deg, rgb(1, 151, 155) 0%, #f8b699 69%);
+}
+
+.gradient-custom {
+  /* fallback for old browsers */
+  background: #6a11cb;
+  /* Chrome 10-25, Safari 5.1-6 */
+  background: -webkit-linear-gradient(to right, rgb(106, 17, 203), rgb(37, 117, 252));
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background: linear-gradient(to right, rgb(106, 17, 203), rgb(37, 117, 252));
 }
 
 .dropdown-item {
@@ -1065,6 +1091,12 @@ img.motodoc {
   text-align: center;
   border-radius: 10px;
   transition: background-color 0.3s ease-in-out;
+}
+
+.custom-gradient-custom {
+  background: #6a11cb;
+  background: -webkit-linear-gradient(to right, #FF8B5A, #01979B);
+  background: linear-gradient(to right, #FF8B5A, #01979B);
 }
 
 /*# sourceMappingURL=styles.css.map */
