@@ -1037,7 +1037,10 @@ h1 {
 h1 {
   z-index: 2;
 }
-
+.secdoc,
+h6 {
+  margin-bottom:10% ;
+}
 .secdoc,
 img.motodoc {
   z-index: 1;
